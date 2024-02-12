@@ -29,7 +29,7 @@ app.use(cors());
 
 //My Routes
 app.use("/api", authRoutes);
-app.use("/url", urlRoute);
+app.use("/api", urlRoute);
 
 app.use(express.json());
 
